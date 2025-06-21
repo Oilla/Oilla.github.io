@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'press_start';
+  src: url('./fonts/press_start/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'pixelify';
+  src: url('./fonts/pixelify_sans/static/PixelifySans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.press_start_normal{
+  font-family: 'press_start';
+}
+.press_start {
+  font-family: 'press_start';
+  text-align: center;
+}
+.press_start_justify{
+  font-family: 'press_start';
+  text-align: justify;
+}
+.press_start_left{
+  font-family: 'press_start';
+  text-align: left;
+}
+
+
+.pixelify_normal{
+  font-family: 'pixelify';
+}
+.pixelify{
+  font-family: 'pixelify';
+  text-align: center;
+}
+
+.pixelify-justify{
+  font-family: 'pixelify';
+  text-align: justify;
+}
+
+.pixelify-left{
+  font-family: 'pixelify';
+  text-align: left;
+}
+
+.text-shadow-warm-pink{
+  text-shadow: #f35d5d;
+  text-shadow: 0px 3px 2px #fe7373;
+}
+.text-shadow-warm-pink2{
+  text-shadow: #f35d5d;
+  text-shadow: 0px 1px 2px #fe7373;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+.float-icon {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7%);
+  }
+}
+
+.float-icon2 {
+  animation: float2 2s ease-in-out infinite;
+}
+
+
+@media (max-width: 768px) {
+  .float-icon {
+    animation: none;
+  }
+}
+
