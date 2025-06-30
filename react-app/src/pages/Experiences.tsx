@@ -9,31 +9,31 @@ function Experiences(){
             title: "Part of The Lost Nemo Staff Team",
             subtitle: "September 2022 - Present",
             description: "The Lost Nemo is an Unofficial Community & Legal Marketplace Discord for Growtopia that has over 500k members. Started as a Guardian then got promoted to Moderator in 2023, and now a Community Manager of the server since September 2023.",
-            image: "/event-holder.jpg",
+            image: "TLN.png",
         },
         {
             title: "Part of HMTI SCU 2023/2024",
             subtitle: "October 2023 - October 2024",
             description: "Was a part of Himpunan Mahasiswa Teknik Informatika as Internal Role, ensured every member to be comfortable to each other and to be a good team.",
-            image: "/event-holder.jpg",
+            image: "HMTI2324.png",
         },
         {
             title: "Teaching Assistant of Fundamental Programming",
             subtitle: "September 2024 - December 2024",
             description: "Teaching and guiding students about the fundamentals of programming, using C Language.",
-            image: "/event-holder.jpg",
+            image: "fundamental.jpg",
         },
         {
             title: "Part of HMTI SCU 2024/2025",
             subtitle: "October 2024 - Present",
             description: "Is still a part of Himpunan Mahasiswa Teknik Informatika as Secretary Role, ensuring every event proposal, event report, and event to be a success.",
-            image: "/event-holder.jpg",
+            image: "HMTI2425.JPG",
         },
         {
             title: "Teaching Assistant of Applied Math",
             subtitle: "March 2025 - Present",
             description: "Teaching and guiding students about applied math, calculus 1 and 2. Learned about Integral, Derivative, Matrices, and Vectors.",
-            image: "/event-holder.jpg",
+            image: "appliedmath.jpeg",
         },
         ];
         
@@ -125,12 +125,12 @@ function Experiences(){
                             <div className='w-auto flex items-center gap-2 my-2'>
                             
                             <img src="/mail.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0' />
-                            <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : 123@gmail.com</p>
+                            <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : darleneangelina16@gmail.com</p>
 
                             </div>
                             <div className='w-auto flex items-center gap-2 my-2'>
                             <img src="/smartphone.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0'/>
-                            <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : 1234-5678-90</p>
+                            <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : +62 858-6600-8586</p>
                             </div>
                         </div>
                     </div>

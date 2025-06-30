@@ -19,7 +19,7 @@ function Menu(){
             </div>
             
             <div className="absolute flex flex-col justify-between 
-            bg-[#FFF2EB]
+            bg-[#FFF2EB]/85
             rounded-[2em]
             w-[70%] h-[70%] 
             top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
@@ -50,7 +50,7 @@ function Menu(){
                     <Link to={path} key={label} className='float-icon2 hover:translate-y-1'>
                         <div
                         key={label}
-                        className="bg-[#ffe8cd] rounded-[1em] my-2 py-3 px-4 flex items-center 
+                        className=" bg-[#ffe8cd] rounded-[1em] my-2 py-3 px-4 flex items-center 
                                     md:block md:w-[10rem] md:pt-7 md:px-0 md:pb-0"
                         
                         >

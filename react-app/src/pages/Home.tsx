@@ -13,8 +13,8 @@ function Home() {
         style={{ backgroundImage: "url('/pink-grass.jpg')" }}
       >
         
-        <TypewriterText text="Oilla" />
-        <Multityping texts={['Web Designer', 'Game Enthusiast', 'Web Developer']} />
+        <TypewriterText text="Darlene Angelina Christy" />
+        <Multityping texts={['Pixel Lover', 'Game Enthusiast', 'Web Developer']} />
 
         {/* CONTOH RESPONSIF:
               text-[1.2rem] sm:text-[1.5rem] md:text-[1.8rem] lg:text-[2.2rem]

@@ -41,7 +41,7 @@ function About() {
             </Link>
 
             <div className='md:mt-10 md:ms-3'>
-              <Avatar className="justify-center mb-5 mx-auto" alt="Darlene" src="src/assets/profile.jpg" 
+              <Avatar className="justify-center mb-5 mx-auto" alt="" src="src/assets/profile.jpg" 
                 sx={{
                   width: {
                     xs: 140, // layar kecil
@@ -87,7 +87,7 @@ function About() {
                   md:text-[1.2em]
                   hover:translate-y-1
                   hover:bg-[#bc5656] 
-                  float-icon2
+                  
                   cursor-pointer
                   '>Skills</button>
                 </Link>
@@ -98,7 +98,6 @@ function About() {
                   md:text-[1.2em]
                   hover:translate-y-1
                   hover:bg-[#bc5656] 
-                  float-icon2
                   cursor-pointer
                   '>Experiences</button>
                 </Link>
@@ -125,6 +124,54 @@ function About() {
             <hr className='my-10 w-[100%] mx-auto text-[#a32d4f] opacity-30
             '/>
 
+            <div className="md:gap-5">
+              <div className="mb-10 md:mb-0">
+                <div className='self-center mx-auto w-[100%]'>
+                    <h2 className="text-center mx-auto press_start text-[#a32d4f] text-[0.8em] mb-4 lg:text-[1.1em]
+                    bg-[#ffd6ba] py-1 rounded-[8px] md:px-27                  ">
+                      Education
+                    </h2>
+                  </div>
+                  <div className='text-left'>
+                      <div className="flex items-center gap-2 mb-2">
+                        <img
+                          src="book.png"
+                          alt=""
+                          className="w-[1.6em] md:w-[2em] md:mb-0"
+                        />
+                        <li className="my-1 list-none pixelify-left text-[#b96a34] lg:text-[1.1em]">
+                          Informatics Engineering in Soegijapranata Catholic University, Semarang
+                          <p className="text-[0.9em] text-[#be957a]">2023 - Now</p>  
+                        </li>
+                      </div>
+                      <div className="flex items-center gap-2 mb-2">
+                        <img
+                          src="book.png"
+                          alt=""
+                          className="w-[1.6em] md:w-[2em] md:mb-0"
+                        />
+                        <li className="my-1 list-none pixelify-left text-[#b96a34] lg:text-[1.1em]">
+                          Krista Mitra Senior High School, Semarang
+                          <p className="text-[0.9em] text-[#be957a]">2020 - 2023</p>  
+                        </li>
+                      </div>
+                      <div className="flex items-center gap-2 mb-2">
+                        <img
+                          src="book.png"
+                          alt=""
+                          className="w-[1.6em] md:w-[2em] md:mb-0"
+                        />
+                        <li className="my-1 list-none pixelify-left text-[#b96a34] lg:text-[1.1em]">
+                          Krista Mitra Junior High School, Semarang
+                          <p className="text-[0.9em] text-[#be957a]">2017 - 2020</p>  
+                        </li>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            
+            <hr className='my-10 w-[100%] mx-auto text-[#a32d4f] opacity-30
+            '/>
             <div className="flex flex-col lg:flex-row justify-between md:gap-5">
               {data.map((section) => (
                 <div key={section.title} className="mb-10 md:mb-0">
@@ -158,12 +205,12 @@ function About() {
                 <div className='w-auto flex items-center gap-2 my-2'>
                   
                   <img src="/mail.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0' />
-                  <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : 123@gmail.com</p>
+                  <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : darleneangelina16@gmail.com</p>
 
                 </div>
                 <div className='w-auto flex items-center gap-2 my-2'>
                   <img src="/smartphone.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0'/>
-                  <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : 1234-5678-90</p>
+                  <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : +62 858-6600-8586</p>
                 </div>
               </div>
             </div>

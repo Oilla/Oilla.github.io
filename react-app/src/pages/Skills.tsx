@@ -109,12 +109,12 @@ function Skills(){
                         <div className='w-auto flex items-center gap-2 my-2'>
                         
                         <img src="/mail.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0' />
-                        <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : 123@gmail.com</p>
+                        <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Email : darleneangelina16@gmail.com</p>
 
                         </div>
                         <div className='w-auto flex items-center gap-2 my-2'>
                         <img src="/smartphone.png" alt="" className='w-[1.6em] md:w-[2em] md:mb-0'/>
-                        <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : 1234-5678-90</p>
+                        <p className='pixelify-left text-[#b96a34] lg:text-[1.1em]'>Phone : +62 858-6600-8586</p>
                         </div>
                     </div>
                 </div>
